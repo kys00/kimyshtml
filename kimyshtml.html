@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <style>
+      .container{
+        display:flex;
+        flex-direction: column;
+      }
+      header{
+        border-bottom:1px solid gray;
+        padding-left:20px;
+        background-color: #d2d2d2;
+        display:flex;
+        flex-direction: row;
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+      footer{
+        display:flex;
+        flex-direction: column;
+        border-top:1px solid gray;
+        padding:20px;
+        color: gray;
+        width: 800px;
+      }
+      footer downfooter{
+        display:flex;
+        flex-direction: row;
+      }
+      .content{
+        display:flex;
+      }
+      .content nav{
+        border-right:1px solid gray;
+      }
+      .content aside{
+        border-left: 1px solid gray;
+        font-family: 'Nanum Pen Script', cursive;
+      }
+      nav, aside{
+        flex-basis: 150px;
+        flex-shrink: 0;
+      }
+      main{
+        padding:10px;
+        font-family: 'Noto Sans KR', sans-serif;
+        text-align: justify;
+        flex-basis: 400px;
+      }
+      .item{
+        text-align: center;
+        border:1px solid white;
+        flex-grow:1;
+      }
+      .item:nth-child(1){
+      }
+      .item:nth-child(2){
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>웹 개발 스터디</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li><a href = "https://www.notion.so/4-1-012edbd1fcc34715851f5aa43670f626">▷</a>html</li>
+            <li><a href = "https://www.notion.so/4-8-fc758fa3fd454c1f813f200eb8a4313d">▷</a>css</li>
+            <li>javascript</li>
+            <br>
+            <li> <a href="https://www.notion.so/5-6-40ed4400ec614a41bd3858f1fa9aaf54">notion</a></li>
+            <li> <a href = "http://www.hipenpal.com/tool/html-color-charts-rgb-color-table-in-korean.php">16진수 색상표</a></li>
+            <li> <a href = "https://fonts.google.com/">(구글)웹 폰트 다운로드</a></li>
+          </ul>
+        </nav>
+        <main>
+          <p>  <h2>웹 개발 스터디란</h2> 4월 1일부터 시작한 웹 개발 스터디, 현재 HTML 공부 후 CSS 부분을 공부하고 있다.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ONcmkf07EuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>느낀점: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p> <h2>요즘 사회 문제</h2> <img src="신이삼.jpg" width="400px"> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 살려주세요 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </main>
+        <aside>
+          [AD] 매달 29일은 이화그린데이!
+          <img src="ewhagreenpanton.jpg" width="180px">
+          [AD] 대학생 선호도 1위 교수 <a href = "https://papago.naver.com/">papago</a>
+          <img src="papago.png" width="180px">
+        </aside>
+      </section>
+      <footer>
+        <upfooter>지명수배명단</upfooter>
+        <downfooter>
+          <div class="item">YouTube<br><img src="youtu.png" width="80px"> <br>국적:미국</div>
+          <div class="item">Netflix<br><img src="net.png" width="100px"> <br>국적:미국</div>
+          <div class="item">에브리타임<br><img src="every.jpg" width="90px"> <br>국적:한국</div>
+        </downfooter>
+      </footer>
+    </div>
+  </body>
+</html>
